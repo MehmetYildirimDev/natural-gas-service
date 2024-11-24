@@ -10,6 +10,15 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # HTTP & API INTEGRATION
+  dio: ^5.7.0                               # HTTP Client
+  pretty_dio_logger: ^1.4.0                 # HTTP Client Logger
+  flutter_client_sse: ^2.0.3                # Server Sent Event
+  url_strategy: ^0.2.0                      # URL Strategy
+
+  # DATA CONVERTERS
+  easy_localization: ^3.0.7                 # Multi-Lang Support
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
